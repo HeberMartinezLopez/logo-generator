@@ -60,5 +60,7 @@ function makeLogo(){
 }
 function renderMyLogo(filename, res){
     fs.writeFileSync(filename, res)
+    console.log('')
+    console.log('Generated logo.svg')
 }
 makeLogo();
